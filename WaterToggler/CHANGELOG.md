@@ -10,6 +10,8 @@ Die Versionshistorie gilt ausschliesslich für **WaterToggler**. Unveröffentlic
 
 #### Hinzugefügt
 
+- [Phase-1-Recherche](docs/PHASE1.md#deutsch) zu Wasser-Volumes und Movement mit Quellen, offenen Fragen und lesendem Runtime-Diagnoseplan ergänzt; noch kein getesteter Build.
+
 - Projektverzeichnis und Dokumentation für WaterToggler angelegt.
 - Zielverhalten für den temporären Dry-Build-Modus festgehalten: Wasseroberfläche ausblenden, Schwimmen deaktivieren und beide Zustände wiederherstellen.
 - Proof-of-Concept-Testplan und technische Leitplanken dokumentiert.
@@ -25,6 +27,8 @@ This version history applies only to **WaterToggler**. Unpublished changes are l
 ### Unreleased
 
 #### Added
+
+- Added [Phase 1 research](docs/PHASE1.md#english) on water volumes and movement, with sources, open questions and a read-only runtime diagnostic plan; no tested build yet.
 
 - Created the WaterToggler project directory and documentation.
 - Defined the intended temporary dry-build behaviour: hide the water surface, disable swimming and restore both states.
