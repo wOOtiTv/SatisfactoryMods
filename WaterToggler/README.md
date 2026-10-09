@@ -4,6 +4,8 @@
 
 ## Deutsch
 
+[Phase 1: Recherche und Runtime-Diagnose](docs/PHASE1.md#deutsch)
+
 **Ziel:** Ein temporärer **Dry-Build-Mode**, um Bauarbeiten auf dem Meeresboden zu erleichtern.
 
 > Status: Konzept und technische Recherche. Noch kein installierbarer Mod-Build.
@@ -47,6 +49,8 @@ Der C++-Quellcode registriert mit `SUBSCRIBE_METHOD` Hooks für `AFGCharacterPla
 Die aktuelle Kompatibilität mit Satisfactory Experimental wurde noch nicht geprüft. Kein fremder Quellcode wurde hier kopiert.
 
 ## English
+
+[Phase 1: Research and runtime diagnostics](docs/PHASE1.md#english)
 
 **Goal:** A temporary **dry-build mode** to make construction on the seabed easier.
 
