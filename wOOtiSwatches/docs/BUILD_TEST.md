@@ -2,7 +2,7 @@
 
 ## Deutsch
 
-**Status:** C++-Modulgerüst angelegt; nicht kompiliert, nicht installiert und nicht im Spiel getestet.
+**Status:** Modul und Rohöl-Descriptor wurden lokal erfolgreich kompiliert und im Editor geladen (Nutzer-Log vom 14.10.2026). Neue read-only World-Slot-Diagnose ist noch nicht lokal gebaut/getestet.
 
 ### Aufbau
 
@@ -25,3 +25,14 @@ Keine behauptete SML-Mindestversion oder Spielversionskompatibilität, bis der e
 ## English
 
 **Status:** C++ module bootstrap only; not built, installed or tested. It logs module startup/shutdown but intentionally registers no swatches and changes no savegame state. Verify the current local FactoryGame/SML toolchain before building, then use a disposable test save.
+
+
+## Read-only Slotdiagnose (14.10.2026)
+
+Im Modul ist ein `FWorldDelegates::OnWorldBeginPlay`-Callback implementiert. Er liest bei Spielwelt-Beginn die Anzahl der Farbslots im `AFGGameState` und im `AFGBuildableSubsystem` und protokolliert für Indizes 24–31, ob Arrayeinträge existieren.
+
+- **Keine** Vergabe, Registrierung oder Veränderung von Farben/Slots.
+- **Keine** sichere Feststellung, ob ein Slot frei ist: Array-Länge/Existenz sagen nichts über Eigentümer aus, und andere Mods können später initialisieren.
+- Nur Spielwelten werden untersucht; reines Öffnen des Editors ohne Play löst die Abfrage nicht aus.
+- Für den Test: Plugin lokal synchronisieren, Editor-Build durchführen, Editor starten, **separates Testsave oder PIE** öffnen und im Output Log nach `[Slots]` suchen.
+- Test noch ausstehend; eventuelle Buildfehler in dieser SML-/Engine-Version müssen anhand des lokalen Compiler-Logs korrigiert werden.
