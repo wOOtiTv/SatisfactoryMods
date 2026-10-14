@@ -1,0 +1,208 @@
+[
+  {
+    "Name": "wOOtiPalette",
+    "PaletteName": "wOOti Palette",
+    "IsActive": true,
+    "AddPrimaryColorsToPreset": true,
+    "AddSecondaryColorsToPreset": true,
+    "RemovePrimaryColorsToPreset": false,
+    "RemoveSecondaryColorsToPreset": false,
+    "Groups": [
+      {
+        "Name": "Produktion",
+        "Priority": 0,
+        "Swatches": [
+          {
+            "Name": "Aluminium",
+            "Priority": 0,
+            "Material": "Default",
+            "PrimaryColor": "#9b9d9e",
+            "SecondaryColor": "#9b9d9e"
+          },
+          {
+            "Name": "Bauxit",
+            "Priority": 1,
+            "Material": "Default",
+            "PrimaryColor": "#a56a56",
+            "SecondaryColor": "#a56a56"
+          },
+          {
+            "Name": "Bernstein",
+            "Priority": 2,
+            "Material": "Default",
+            "PrimaryColor": "#F2AA00FF",
+            "SecondaryColor": "#F2AA00FF"
+          },
+          {
+            "Name": "Dunkelgrau",
+            "Priority": 3,
+            "Material": "Default",
+            "PrimaryColor": "#424242FF",
+            "SecondaryColor": "#424242FF"
+          },
+          {
+            "Name": "Dunkle Materie Rückstand",
+            "Priority": 4,
+            "Material": "Default",
+            "PrimaryColor": "#FDAFF9FF",
+            "SecondaryColor": "#FDAFF9FF"
+          },
+          {
+            "Name": "Gummi",
+            "Priority": 5,
+            "Material": "Default",
+            "PrimaryColor": "#353232",
+            "SecondaryColor": "#353232"
+          },
+          {
+            "Name": "Hellgrau",
+            "Priority": 6,
+            "Material": "Default",
+            "PrimaryColor": "#BCBCBCFF",
+            "SecondaryColor": "#BCBCBCFF"
+          },
+          {
+            "Name": "Ionisierter Treibstoff",
+            "Priority": 7,
+            "Material": "Default",
+            "PrimaryColor": "#D55F1AFF",
+            "SecondaryColor": "#D55F1AFF"
+          },
+          {
+            "Name": "Kalkstein",
+            "Priority": 8,
+            "Material": "Default",
+            "PrimaryColor": "#908277",
+            "SecondaryColor": "#908277"
+          },
+          {
+            "Name": "Kunststoff",
+            "Priority": 9,
+            "Material": "Default",
+            "PrimaryColor": "#4dacf0",
+            "SecondaryColor": "#4dacf0"
+          },
+          {
+            "Name": "Orange",
+            "Priority": 10,
+            "Material": "Default",
+            "PrimaryColor": "#F39C27FF",
+            "SecondaryColor": "#F39C27FF"
+          },
+          {
+            "Name": "Petrol",
+            "Priority": 11,
+            "Material": "Default",
+            "PrimaryColor": "#0D3A3DFF",
+            "SecondaryColor": "#0D3A3DFF"
+          },
+          {
+            "Name": "Photonische Materie",
+            "Priority": 12,
+            "Material": "Default",
+            "PrimaryColor": "#76F5E8FF",
+            "SecondaryColor": "#76F5E8FF"
+          },
+          {
+            "Name": "Quarz",
+            "Priority": 13,
+            "Material": "Default",
+            "PrimaryColor": "#cf9bcf",
+            "SecondaryColor": "#cf9bcf"
+          },
+          {
+            "Name": "Quarzsand",
+            "Priority": 14,
+            "Material": "Default",
+            "PrimaryColor": "#E7DFCFFF",
+            "SecondaryColor": "#E7DFCFFF"
+          },
+          {
+            "Name": "Raketentreibstoff",
+            "Priority": 15,
+            "Material": "Default",
+            "PrimaryColor": "#BD251AFF",
+            "SecondaryColor": "#BD251AFF"
+          },
+          {
+            "Name": "Rohöl",
+            "Priority": 16,
+            "Material": "Default",
+            "PrimaryColor": "#190019",
+            "SecondaryColor": "#190019"
+          },
+          {
+            "Name": "Salpetersäure",
+            "Priority": 17,
+            "Material": "Default",
+            "PrimaryColor": "#d9d9a2",
+            "SecondaryColor": "#d9d9a2"
+          },
+          {
+            "Name": "SAM",
+            "Priority": 18,
+            "Material": "Default",
+            "PrimaryColor": "#65369c",
+            "SecondaryColor": "#65369c"
+          },
+          {
+            "Name": "Schrauben",
+            "Priority": 19,
+            "Material": "Default",
+            "PrimaryColor": "#3361B3FF",
+            "SecondaryColor": "#3361B3FF"
+          },
+          {
+            "Name": "Schwefel",
+            "Priority": 20,
+            "Material": "Default",
+            "PrimaryColor": "#d0b955",
+            "SecondaryColor": "#d0b955"
+          },
+          {
+            "Name": "Schwerölrückstand",
+            "Priority": 21,
+            "Material": "Default",
+            "PrimaryColor": "#6d2d78",
+            "SecondaryColor": "#6d2d78"
+          },
+          {
+            "Name": "Stickstoff",
+            "Priority": 22,
+            "Material": "Default",
+            "PrimaryColor": "#C1C1C1FF",
+            "SecondaryColor": "#C1C1C1FF"
+          },
+          {
+            "Name": "Treibstoff",
+            "Priority": 23,
+            "Material": "Default",
+            "PrimaryColor": "#eb7d15",
+            "SecondaryColor": "#eb7d15"
+          },
+          {
+            "Name": "Turbotreibstoff",
+            "Priority": 24,
+            "Material": "Default",
+            "PrimaryColor": "#A00000FF",
+            "SecondaryColor": "#A00000FF"
+          },
+          {
+            "Name": "Uran",
+            "Priority": 25,
+            "Material": "Default",
+            "PrimaryColor": "#88d188",
+            "SecondaryColor": "#88d188"
+          },
+          {
+            "Name": "Wasser",
+            "Priority": 26,
+            "Material": "Default",
+            "PrimaryColor": "#84A4D0FF",
+            "SecondaryColor": "#84A4D0FF"
+          }
+        ]
+      }
+    ]
+  }
+]

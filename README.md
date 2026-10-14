@@ -13,6 +13,7 @@ Jede Mod erhält ein eigenes Verzeichnis mit einer zweisprachigen `README.md` (D
 | Mod | Beschreibung | Status | Änderungen |
 | --- | --- | --- | --- |
 | [WaterToggler](WaterToggler/README.md#deutsch) | Temporärer Dry-Build-Modus: Wasser ausblenden und Schwimmen unterbinden | Konzept / Recherche | [Changelog](WaterToggler/CHANGELOG.md#deutsch) |
+| [wOOtiSwatches](wOOtiSwatches/README.md#deutsch) | Eigene, schlanke Farbpalette mit 27 Farben, ohne USS-Default-Ballast | Konzept / Entwicklungsvorbereitung | [Changelog](wOOtiSwatches/CHANGELOG.md#deutsch) |
 
 ### Grundsätze
 
@@ -37,6 +38,7 @@ Each mod has its own directory with a bilingual `README.md` (German/English) and
 | Mod | Description | Status | Changes |
 | --- | --- | --- | --- |
 | [WaterToggler](WaterToggler/README.md#english) | Temporary dry-build mode: hide water and disable swimming | Concept / research | [Changelog](WaterToggler/CHANGELOG.md#english) |
+| [wOOtiSwatches](wOOtiSwatches/README.md#english) | Compact custom 27-color palette without USS default colors | Concept / development preparation | [Changelog](wOOtiSwatches/CHANGELOG.md#english) |
 
 ### Principles
 
