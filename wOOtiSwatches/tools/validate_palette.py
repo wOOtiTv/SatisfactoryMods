@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config"
-ID_PATTERN = re.compile(r"wooti\\.swatch\\.[0-9]{4,}$")
+ID_PATTERN = re.compile(r"wooti\.swatch\.[0-9]{4,}$")
 HEX_PATTERN = re.compile(r"#[0-9A-Fa-f]{6}(?:[0-9A-Fa-f]{2})?$")
 
 
