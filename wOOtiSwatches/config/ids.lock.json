@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "ids": {
+    "wooti.swatch.0001": "Aluminium",
+    "wooti.swatch.0002": "Bauxit",
+    "wooti.swatch.0003": "Bernstein",
+    "wooti.swatch.0004": "Dunkelgrau",
+    "wooti.swatch.0005": "Dunkle Materie Rückstand",
+    "wooti.swatch.0006": "Gummi",
+    "wooti.swatch.0007": "Hellgrau",
+    "wooti.swatch.0008": "Ionisierter Treibstoff",
+    "wooti.swatch.0009": "Kalkstein",
+    "wooti.swatch.0010": "Kunststoff",
+    "wooti.swatch.0011": "Orange",
+    "wooti.swatch.0012": "Petrol",
+    "wooti.swatch.0013": "Photonische Materie",
+    "wooti.swatch.0014": "Quarz",
+    "wooti.swatch.0015": "Quarzsand",
+    "wooti.swatch.0016": "Raketentreibstoff",
+    "wooti.swatch.0017": "Rohöl",
+    "wooti.swatch.0018": "Salpetersäure",
+    "wooti.swatch.0019": "SAM",
+    "wooti.swatch.0020": "Schrauben",
+    "wooti.swatch.0021": "Schwefel",
+    "wooti.swatch.0022": "Schwerölrückstand",
+    "wooti.swatch.0023": "Stickstoff",
+    "wooti.swatch.0024": "Treibstoff",
+    "wooti.swatch.0025": "Turbotreibstoff",
+    "wooti.swatch.0026": "Uran",
+    "wooti.swatch.0027": "Wasser"
+  }
+}
