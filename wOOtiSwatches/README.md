@@ -4,7 +4,7 @@
 
 ## Deutsch
 
-**Status: Konzept / Entwicklungsvorbereitung – keine installierbare Mod.**
+**Status: C++-Modulgerüst vorhanden – noch nicht kompiliert, nicht installiert und keine registrierten Swatches im Spiel.**
 
 wOOtiSwatches soll eine eigenständige, schlanke Farb-Mod für Satisfactory werden, inspiriert vom Ansatz von [Universal Swatch Slots](https://github.com/Loupimo/UniversalSwatchSlots) (USS). Ziel ist eine einzige eigene Palette ohne die umfangreiche USS-Standardpalette.
 
@@ -70,6 +70,10 @@ python3 wOOtiSwatches/tools/validate_palette.py
 
 Der Validator prüft Farben, doppelte/fehlende IDs sowie versehentliche Neuzuordnungen und simuliert das alphabetische Einfügen einer 28. Farbe. Kein Satisfactory-Laufzeittest.
 
+### Entwicklungsgerüst
+
+Ein minimales Unreal-/SML-Modul mit `wOOtiSwatches.uplugin`, `Source/wOOtiSwatches/wOOtiSwatches.Build.cs` und einem C++-Start/Stop-Logger ist vorhanden. **Das Modul registriert derzeit keine Farben.** Build- und Testhinweise: [docs/BUILD_TEST.md](docs/BUILD_TEST.md).
+
 ### Technische Analyse
 
 Die Untersuchung der Engine-Slotzuordnung, der USS-Persistenz und der notwendigen Tests steht unter [docs/ARCHITEKTUR.md](docs/ARCHITEKTUR.md). Besonders wichtig: Die logischen Katalog-IDs allein reichen nicht aus; auch Slotnummern und Descriptor-Referenzen im Spiel müssen stabil bleiben. Die Spielslots sind nicht unbegrenzt verfügbar.
@@ -84,7 +88,7 @@ Die Untersuchung der Engine-Slotzuordnung, der USS-Persistenz und der notwendige
 
 ## English
 
-**Status: concept / development preparation – not an installable mod.**
+**Status: C++ module bootstrap exists; not compiled, installed or registering swatches in the game.**
 
 wOOtiSwatches aims to provide one small, independent Satisfactory color palette inspired by Universal Swatch Slots, without its large default collection. The 18 vanilla color slots must remain untouched. User edits should persist across restarts, subject to implementation and testing. The JSON under `config/` is reference data, **not** a verified configuration format for the eventual standalone plugin.
 
