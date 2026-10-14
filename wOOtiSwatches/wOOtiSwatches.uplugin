@@ -1,13 +1,18 @@
 {
   "FileVersion": 3,
   "Version": 1,
-  "VersionName": "0.0.1-dev",
+  "VersionName": "1.0.0",
   "FriendlyName": "wOOtiSwatches",
-  "Description": "Custom swatches for Satisfactory. Experimental module skeleton; does not register in-game swatches yet.",
-  "Category": "Customization",
+  "Description": "Custom color swatches for Satisfactory with persistent colors and a configurable palette.",
+  "Category": "Modding",
   "CreatedBy": "wOOtiTv",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
   "CanContainContent": true,
-  "IsBetaVersion": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
   "Installed": false,
   "Modules": [
     {
@@ -16,11 +21,14 @@
       "LoadingPhase": "Default"
     }
   ],
+  "BuiltInInitialFeatureState": "Active",
   "Plugins": [
     {
       "Name": "SML",
-      "Enabled": true
+      "Enabled": true,
+      "SemVersion": "^3.12.0"
     }
   ],
-  "SemVersion": "0.0.1"
+  "SemVersion": "1.0.0",
+  "GameVersion": ">=502094"
 }
