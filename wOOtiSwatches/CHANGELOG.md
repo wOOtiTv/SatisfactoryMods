@@ -6,6 +6,8 @@
 
 ### Unreleased
 
+- Erste fest benannte C++-Descriptor-Klasse `UWootiRohOelSwatch` für Rohöl (`wooti.swatch.0017`) angelegt; noch ohne Registrierung oder Slotnummer. Nächster Schritt: lokaler Kompiliertest.
+
 - Minimales Unreal-/SML-C++-Modulgerüst mit Plugin-Descriptor, Build.cs und Start/Stop-Logging angelegt.
 - Build-/Testprotokoll ergänzt; noch keine Farbregistrierung und kein erfolgreicher Build nachgewiesen.
 
@@ -22,6 +24,7 @@
 
 ### Unreleased
 
+- Added a stable Rohöl C++ descriptor class for compilation testing, not yet registered in-game.
 - Added an Unreal/SML C++ module bootstrap and build/test protocol; uncompiled, not game-tested, and not registering swatches yet.
 - Added a stable-ID catalog and locked identity registry for the initial 27 colors.
 - Added validation for identity reassignment, removal and alphabetically inserted new colors.
