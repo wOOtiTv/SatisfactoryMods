@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "namespace": "wooti.swatches",
+  "swatches": [
+    {
+      "id": "wooti.swatch.0001",
+      "name": "Aluminium",
+      "primary": "#9b9d9e",
+      "secondary": "#9b9d9e",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0002",
+      "name": "Bauxit",
+      "primary": "#a56a56",
+      "secondary": "#a56a56",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0003",
+      "name": "Bernstein",
+      "primary": "#F2AA00FF",
+      "secondary": "#F2AA00FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0004",
+      "name": "Dunkelgrau",
+      "primary": "#424242FF",
+      "secondary": "#424242FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0005",
+      "name": "Dunkle Materie Rückstand",
+      "primary": "#FDAFF9FF",
+      "secondary": "#FDAFF9FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0006",
+      "name": "Gummi",
+      "primary": "#353232",
+      "secondary": "#353232",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0007",
+      "name": "Hellgrau",
+      "primary": "#BCBCBCFF",
+      "secondary": "#BCBCBCFF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0008",
+      "name": "Ionisierter Treibstoff",
+      "primary": "#D55F1AFF",
+      "secondary": "#D55F1AFF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0009",
+      "name": "Kalkstein",
+      "primary": "#908277",
+      "secondary": "#908277",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0010",
+      "name": "Kunststoff",
+      "primary": "#4dacf0",
+      "secondary": "#4dacf0",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0011",
+      "name": "Orange",
+      "primary": "#F39C27FF",
+      "secondary": "#F39C27FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0012",
+      "name": "Petrol",
+      "primary": "#0D3A3DFF",
+      "secondary": "#0D3A3DFF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0013",
+      "name": "Photonische Materie",
+      "primary": "#76F5E8FF",
+      "secondary": "#76F5E8FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0014",
+      "name": "Quarz",
+      "primary": "#cf9bcf",
+      "secondary": "#cf9bcf",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0015",
+      "name": "Quarzsand",
+      "primary": "#E7DFCFFF",
+      "secondary": "#E7DFCFFF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0016",
+      "name": "Raketentreibstoff",
+      "primary": "#BD251AFF",
+      "secondary": "#BD251AFF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0017",
+      "name": "Rohöl",
+      "primary": "#190019",
+      "secondary": "#190019",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0018",
+      "name": "Salpetersäure",
+      "primary": "#d9d9a2",
+      "secondary": "#d9d9a2",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0019",
+      "name": "SAM",
+      "primary": "#65369c",
+      "secondary": "#65369c",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0020",
+      "name": "Schrauben",
+      "primary": "#3361B3FF",
+      "secondary": "#3361B3FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0021",
+      "name": "Schwefel",
+      "primary": "#d0b955",
+      "secondary": "#d0b955",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0022",
+      "name": "Schwerölrückstand",
+      "primary": "#6d2d78",
+      "secondary": "#6d2d78",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0023",
+      "name": "Stickstoff",
+      "primary": "#C1C1C1FF",
+      "secondary": "#C1C1C1FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0024",
+      "name": "Treibstoff",
+      "primary": "#eb7d15",
+      "secondary": "#eb7d15",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0025",
+      "name": "Turbotreibstoff",
+      "primary": "#A00000FF",
+      "secondary": "#A00000FF",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0026",
+      "name": "Uran",
+      "primary": "#88d188",
+      "secondary": "#88d188",
+      "material": "Default"
+    },
+    {
+      "id": "wooti.swatch.0027",
+      "name": "Wasser",
+      "primary": "#84A4D0FF",
+      "secondary": "#84A4D0FF",
+      "material": "Default"
+    }
+  ]
+}
