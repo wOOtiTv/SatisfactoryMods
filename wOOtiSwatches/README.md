@@ -51,6 +51,25 @@ Die folgende Tabelle stammt aus der bereitgestellten `wOOti_Palette_Produktion.j
 | Uran | `#88d188` | `#88d188` |
 | Wasser | `#84A4D0FF` | `#84A4D0FF` |
 
+### Stabile IDs und sichere Erweiterung
+
+Der neue technische Katalog `config/swatches.json` enthält die 27 Originalfarben mit festen Kennungen `wooti.swatch.0001` bis `wooti.swatch.0027`. Die zusätzliche `config/ids.lock.json` schützt die Zuordnung zwischen Kennung und ursprünglichem Farbnamen.
+
+- **ID nie umbenennen, verschieben oder wiederverwenden.** Position im Menü und `Priority` der USS-Referenzdatei sind **keine** Identität.
+- Neue Farben erhalten die nächste **noch nie verwendete** ID, auch wenn sie alphabetisch zwischen vorhandenen Farben erscheinen.
+- Farben im Menü werden anhand ihres Namens sortiert, niemals durch Neunummerierung.
+- Die Datei `config/wOOti_Palette_Produktion.json` bleibt als ursprüngliche USS-Datenreferenz erhalten; `config/swatches.json` ist der neue geplante Mod-Katalog.
+- Bei künftiger Umbenennung oder Entfernung muss die ursprüngliche ID bestehen bleiben; die spätere Implementierung braucht dafür Aliase bzw. Tombstones und Save-Migrationsregeln.
+- Der ID-Schutz in JSON garantiert **noch nicht** die Stabilität von gespeicherten Satisfactory-Gebäudefarben. Die Mod muss diese IDs später technisch stabil auf die tatsächlichen Swatch-Assets/Save-Referenzen abbilden.
+
+Validierung vom Repository-Wurzelverzeichnis aus:
+
+```bash
+python3 wOOtiSwatches/tools/validate_palette.py
+```
+
+Der Validator prüft Farben, doppelte/fehlende IDs sowie versehentliche Neuzuordnungen und simuliert das alphabetische Einfügen einer 28. Farbe. Kein Satisfactory-Laufzeittest.
+
 ### Nächste technische Schritte
 
 1. Satisfactory-/SML-Versionen und Modding-Toolchain prüfen.
@@ -68,6 +87,10 @@ wOOtiSwatches aims to provide one small, independent Satisfactory color palette 
 ### Palette
 
 The 27 original names and hex values are listed in the German section above.
+
+### Stable swatch identities
+
+`config/swatches.json` defines stable IDs for the 27 initial colors. `config/ids.lock.json` guards their original assignments. Never reassign or recycle an ID; display sorting must not change identity. Run `python3 wOOtiSwatches/tools/validate_palette.py` from the repository root. These are catalog-level checks, **not yet** proof of persistence in Satisfactory saves.
 
 ### Development
 
