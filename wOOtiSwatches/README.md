@@ -70,6 +70,10 @@ python3 wOOtiSwatches/tools/validate_palette.py
 
 Der Validator prüft Farben, doppelte/fehlende IDs sowie versehentliche Neuzuordnungen und simuliert das alphabetische Einfügen einer 28. Farbe. Kein Satisfactory-Laufzeittest.
 
+### Technische Analyse
+
+Die Untersuchung der Engine-Slotzuordnung, der USS-Persistenz und der notwendigen Tests steht unter [docs/ARCHITEKTUR.md](docs/ARCHITEKTUR.md). Besonders wichtig: Die logischen Katalog-IDs allein reichen nicht aus; auch Slotnummern und Descriptor-Referenzen im Spiel müssen stabil bleiben. Die Spielslots sind nicht unbegrenzt verfügbar.
+
 ### Nächste technische Schritte
 
 1. Satisfactory-/SML-Versionen und Modding-Toolchain prüfen.
