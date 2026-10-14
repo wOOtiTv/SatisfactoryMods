@@ -6,6 +6,9 @@
 
 ### Unreleased
 
+- Minimales Unreal-/SML-C++-Modulgerüst mit Plugin-Descriptor, Build.cs und Start/Stop-Logging angelegt.
+- Build-/Testprotokoll ergänzt; noch keine Farbregistrierung und kein erfolgreicher Build nachgewiesen.
+
 - Stabilen JSON-Katalog für 27 Farben und unveränderliche Kennungen angelegt (`swatches.json`, `ids.lock.json`).
 - Validierung für ID-Kollisionen, versehentliches Umbenennen/Entfernen und alphabetisch eingefügte Farben ergänzt.
 - Technische Zuordnung zu tatsächlichen Satisfactory-Swatch-Assets und Savegames noch nicht umgesetzt.
@@ -19,6 +22,7 @@
 
 ### Unreleased
 
+- Added an Unreal/SML C++ module bootstrap and build/test protocol; uncompiled, not game-tested, and not registering swatches yet.
 - Added a stable-ID catalog and locked identity registry for the initial 27 colors.
 - Added validation for identity reassignment, removal and alphabetically inserted new colors.
 - Runtime asset registration and save persistence are not implemented yet.
