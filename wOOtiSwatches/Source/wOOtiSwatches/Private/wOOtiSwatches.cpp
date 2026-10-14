@@ -1,22 +1,16 @@
-#include "Modules/ModuleManager.h"
-#include "Misc/Paths.h"
+// Alpakit-generated module layout; bootstrap logging only.
+#include "wOOtiSwatches.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogWootiSwatches, Log, All);
 
-class FWootiSwatchesModule final : public IModuleInterface
+void FwOOtiSwatchesModule::StartupModule()
 {
-public:
-    virtual void StartupModule() override
-    {
-        // Bootstrap only. No swatch registration and no world/save mutations.
-        UE_LOG(LogWootiSwatches, Display,
-            TEXT("wOOtiSwatches development module loaded. No game swatches registered."));
-    }
+    UE_LOG(LogWootiSwatches, Display, TEXT("wOOtiSwatches loaded (bootstrap only; no swatches registered)."));
+}
 
-    virtual void ShutdownModule() override
-    {
-        UE_LOG(LogWootiSwatches, Display, TEXT("wOOtiSwatches module unloaded."));
-    }
-};
+void FwOOtiSwatchesModule::ShutdownModule()
+{
+    UE_LOG(LogWootiSwatches, Display, TEXT("wOOtiSwatches unloaded."));
+}
 
-IMPLEMENT_MODULE(FWootiSwatchesModule, wOOtiSwatches)
+IMPLEMENT_MODULE(FwOOtiSwatchesModule, wOOtiSwatches)
