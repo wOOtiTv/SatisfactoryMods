@@ -6,6 +6,13 @@
 
 DEFINE_LOG_CATEGORY_STATIC(LogWootiSlotProbe, Log, All);
 
+void AWootiSwatchesDiagnosticSubsystem::Init()
+{
+    Super::Init();
+    UE_LOG(LogWootiSlotProbe, Display,
+        TEXT("[Slots] Diagnostic subsystem Init called; instance=%s"), *GetName());
+}
+
 void AWootiSwatchesDiagnosticSubsystem::BeginPlay()
 {
     Super::BeginPlay();
