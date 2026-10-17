@@ -14,5 +14,6 @@ class WOOTISWATCHES_API AWootiSwatchesDiagnosticSubsystem : public AModSubsystem
     GENERATED_BODY()
 
 protected:
+    virtual void Init() override;
     virtual void BeginPlay() override;
 };
