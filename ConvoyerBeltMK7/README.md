@@ -25,3 +25,7 @@ Experimental standalone belt targeting 3,200 items/min. It uses a separate build
 Status: Belt, descriptor and linked build recipe saved in the CSS editor. Unlock, packaging and game validation are pending.
 
 [Reference mod and throughput observations](https://github.com/budak7273/BeltMk6) · [SML schematic guide](https://docs.ficsit.app/satisfactory-modding/latest/Development/BeginnersGuide/SimpleMod/recipe.html)
+
+### Windows test package
+
+The initial Tier 9 milestone uses ContentLib 1.10 and costs one Iron Plate for testing. Package the Blueprint assets with Alpakit. For local staging, copy the plugin's ContentLib directory beside the packaged .uplugin and add ContentLib ^1.10.0 as an enabled dependency to the staged descriptor. The editor project can cook the assets without the ContentLib source plugin. In-game milestone and throughput still require verification.
