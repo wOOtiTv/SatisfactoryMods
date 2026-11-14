@@ -43,23 +43,15 @@ def main():
     descriptor_class = blueprint_class(descriptor_path)
     belt = unreal.get_default_object(belt_class)
     descriptor = unreal.get_default_object(descriptor_class)
-    recipe = unreal.get_default_object(blueprint_class(recipe_path))
+    blueprint_class(recipe_path)
 
     belt.set_editor_property("m_speed", reference_speed * TARGET_RATE / VANILLA_RATE)
     descriptor.set_editor_property("m_buildable_class", belt_class)
     descriptor.set_editor_property("m_display_name", unreal.Text("Förderband Mk.7"))
-    recipe.set_editor_property("m_display_name_override", False)
-    products = recipe.get_editor_property("m_product")
-    if len(products) != 1:
-        raise RuntimeError("Expected one product in the Mk.6 construction recipe")
-    product = products[0]
-    product.set_editor_property("item_class", descriptor_class)
-    recipe.set_editor_property("m_product", [product])
-
     for _, destination in ASSET_SPECS:
         if not library.save_asset(destination, only_if_is_dirty=False):
             raise RuntimeError(f"Saving failed: {destination}")
-    unreal.log(f"Mk.7 assets saved. Nominal target: {TARGET_RATE} items/min.")
+    unreal.log(f"Mk.7 template assets saved. Link the recipe manually. Nominal target: {TARGET_RATE} items/min.")
 
 
 if __name__ == "__main__":
