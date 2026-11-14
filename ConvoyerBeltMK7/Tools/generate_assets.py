@@ -47,7 +47,9 @@ def main():
 
     belt.set_editor_property("m_speed", reference_speed * TARGET_RATE / VANILLA_RATE)
     descriptor.set_editor_property("m_buildable_class", belt_class)
-    descriptor.set_editor_property("m_display_name", unreal.Text("Förderband Mk.7"))
+    display_name = unreal.Text("Förderband Mk.7")
+    belt.set_editor_property("m_display_name", display_name)
+    descriptor.set_editor_property("m_display_name", display_name)
     for _, destination in ASSET_SPECS:
         if not library.save_asset(destination, only_if_is_dirty=False):
             raise RuntimeError(f"Saving failed: {destination}")
