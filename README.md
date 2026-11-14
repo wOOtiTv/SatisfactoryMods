@@ -14,6 +14,7 @@ Jede Mod erhält ein eigenes Verzeichnis mit einer zweisprachigen `README.md` (D
 | --- | --- | --- | --- |
 | [WaterToggler](WaterToggler/README.md#deutsch) | Temporärer Dry-Build-Modus: Wasser ausblenden und Schwimmen unterbinden | Konzept / Recherche | [Changelog](WaterToggler/CHANGELOG.md#deutsch) |
 | [wOOtiSwatches](wOOtiSwatches/README.md#deutsch) | Eigene, schlanke Farbpalette mit 27 Farben, ohne USS-Default-Ballast | Konzept / Entwicklungsvorbereitung | [Changelog](wOOtiSwatches/CHANGELOG.md#deutsch) |
+| [Conveyor Belt Mk.7](ConvoyerBeltMK7/README.md#deutsch) | Eigenes Förderband mit 3.200 Items/min als Ziel | Experimenteller Prototyp | [Changelog](ConvoyerBeltMK7/CHANGELOG.md#deutsch) |
 
 ### Grundsätze
 
@@ -39,6 +40,7 @@ Each mod has its own directory with a bilingual `README.md` (German/English) and
 | --- | --- | --- | --- |
 | [WaterToggler](WaterToggler/README.md#english) | Temporary dry-build mode: hide water and disable swimming | Concept / research | [Changelog](WaterToggler/CHANGELOG.md#english) |
 | [wOOtiSwatches](wOOtiSwatches/README.md#english) | Compact custom 27-color palette without USS default colors | Concept / development preparation | [Changelog](wOOtiSwatches/CHANGELOG.md#english) |
+| [Conveyor Belt Mk.7](ConvoyerBeltMK7/README.md#english) | Standalone belt targeting 3,200 items/min | Experimental prototype | [Changelog](ConvoyerBeltMK7/CHANGELOG.md#english) |
 
 ### Principles
 

@@ -1,0 +1,16 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "SemVersion": "0.1.0",
+  "GameVersion": ">=491125",
+  "FriendlyName": "Conveyor Belt Mk.7",
+  "Description": "Experimental standalone conveyor targeting 3200 items per minute.",
+  "Category": "Modding",
+  "CreatedBy": "wOOtiTv",
+  "CanContainContent": true,
+  "IsExperimentalVersion": true,
+  "Plugins": [
+    { "Name": "SML", "Enabled": true, "SemVersion": "^3.12.0" }
+  ]
+}
