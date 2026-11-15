@@ -5,7 +5,7 @@ import unreal
 PLUGIN = "/ConveyorBeltMk7"
 FACTORY = "/Game/FactoryGame"
 BELT_FOLDER = f"{FACTORY}/Buildable/Factory/ConveyorBeltMk6"
-TARGET_RATE = 3200
+TARGET_RATE = 3000
 VANILLA_RATE = 1200
 
 ASSET_SPECS = (
