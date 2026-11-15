@@ -1,0 +1,12 @@
+{
+  "Name": "Förderlift Mk.7",
+  "Ingredients": [
+    { "Item": "Desc_FicsiteMesh_C", "Amount": 1 },
+    { "Item": "Desc_TimeCrystal_C", "Amount": 1 }
+  ],
+  "Products": [
+    { "Item": "/ConveyorBeltMk7/Desc_ConveyorLiftMk7.Desc_ConveyorLiftMk7_C", "Amount": 1 }
+  ],
+  "ProducedIn": ["BP_BuildGun"],
+  "ManufacturingDuration": 1
+}

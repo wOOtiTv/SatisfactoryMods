@@ -5,9 +5,13 @@
   "VisualKit": "Desc_ConveyorBeltMk6_C",
   "Time": 10,
   "Cost": [
-    { "Item": "Desc_IronPlate_C", "Amount": 1 }
+    {
+      "Item": "Desc_IronPlate_C",
+      "Amount": 1
+    }
   ],
   "Recipes": [
-    "/ConveyorBeltMk7/Recipe_ConveyorBeltMk7.Recipe_ConveyorBeltMk7_C"
+    "/ConveyorBeltMk7/Recipe_ConveyorBeltMk7.Recipe_ConveyorBeltMk7_C",
+    "Recipe_WootiConveyorLiftMk7"
   ]
 }
